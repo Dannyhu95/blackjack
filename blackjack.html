@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>blackjack.html</title>
+	<script type="text/javascript" src="jack.js" /></script>
+</head>
+<body onload="name()">
+
+<h1>Blackjack!</h1>
+
+<form method="get">
+
+<h2>Card 1 is now <input name="card1" size=1 type="text"> 
+     <img src="cards/cardback.gif" width=95 height=135></h2>
+<h2>Card 2 is now <input name="card2" size=1 type="text">
+     <img src="cards/cardback.gif" width=95 height=135>
+</h2>
+<h2>Number of Hands: <input name="hand" size=1 type="text" value = 0>
+</h2>
+
+<h2>Total is <input name="total" size=2 type="text" value = 0></h2>
+<br>
+<input type="button" name="Deal" value="Deal" onclick="rollIt()" /><br>
+<input type="reset" name="Cancel" value="Cancel" onclick="reset()"/>
+
+</form>
+</body>
+</html>
